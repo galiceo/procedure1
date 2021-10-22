@@ -1,5 +1,5 @@
 #include <stdio.h>
-int sum(int, int);
+bool isEven(int);
 
 int main()
 {
@@ -9,8 +9,7 @@ int main()
 	{
 		printf("!!!!");
 	}
-	sum(c, 2);
-	printf("a+b=%d", a + b); //¶Ïµã
+	printf("a+b=%d", a + b); 
 	int d = c * 2;
 	printf("c*2=%d", d);
 	printf("Hello world!");
@@ -19,7 +18,24 @@ int main()
 }
 
 
-int sum(int a, int b)
+/*
+	
+	given a positive integer, return if it is a even number
+
+	@param n the positive number
+*/
+bool isEven(int n)
 {
-	return a + b;
+
+}
+
+/*
+	return the value k that x^k <= y
+
+	@param x the intenger number
+	@param y the another intenger number
+*/
+int fakeLog(int x, int y)
+{
+
 }
