@@ -122,9 +122,20 @@ bool isEven(int n)
 */
 int fakeLog(int x, int y)
 {
-	return 0;
+	int index = 0;
+	int res = x ^ index;
+	while (res < y)
+	{
+		index++;
+		res = x ^ index;
+	}
+	return index;
 }
 
+void test()
+{
+
+}
 
 
 
